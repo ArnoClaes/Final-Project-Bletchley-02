@@ -8,7 +8,7 @@ The current method through which systems identify, classify users nowadays is by
 Our hypothesis is centred around the idea that systems could reduce computational expenses and still classify users biometrically with a reasonable accuracy. Our approach is to reduce the input size to a chain of computations by eliminating the dependency on full images to a set of coordinates which represent the facial landmarks of a human. 
 
 ## Approach
-The presen approach utilizes data collected from 'The Open University of Israel' | https://www.openu.ac.il/home/hassner/Adience/data.html as the training data for the model. Additionally, OpenCV is used in order to identify facial landmarks (coordinates) based on the libraries pre-trained model | https://github.com/AKSHAYUBHAT/TensorFace/blob/master/openface/models/dlib/shape_predictor_68_face_landmarks.dat . Subsequently, the landmarks are used as inputs for the predictive models which classify users by age groups and gender.
+The presen approach utilizes data collected from [The Open University of Israel](https://www.openu.ac.il/home/hassner/Adience/data.html) as the training data for the model. Additionally, OpenCV is used in order to identify facial landmarks (coordinates) based on the [libraries pre-trained model](https://github.com/AKSHAYUBHAT/TensorFace/blob/master/openface/models/dlib/shape_predictor_68_face_landmarks.dat). Subsequently, the landmarks are used as inputs for the predictive models which classify users by age groups and gender.
 
 ### Classes
 In order to derive proper age classes we considered the distribution of observations in proportion to the sample. The classes of the present model are described below:
