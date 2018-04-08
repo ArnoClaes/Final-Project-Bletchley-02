@@ -23,5 +23,7 @@ Adult:        33->48
 Abraham:      49->59
 Elderly:      60+
 
+![Alt text](AgeDistribution.png?raw=true "Age Distribution")
+
 ## Results
 
