@@ -13,15 +13,17 @@ The presen approach utilizes data collected from 'The Open University of Israel'
 ### Classes
 In order to derive proper age classes we considered the distribution of observations in proportion to the sample. The classes of the present model are described below:
 
-Toddler:      0->3
-Young_child:  4->6
-Child:        7->14
-Teenager:     15->20
-Adolescent:   21->24
-Young_adult:  25->32
-Adult:        33->48 
-Abraham:      49->59
-Elderly:      60+
+| Category     | Age Range |
+|--------------|-----------|
+| Toddler      | 0 => 3    |
+| Young Child  | 4 => 6    |
+| Child        | 7 => 14   |
+| Teenager     | 15 => 20  |
+| Adolescent   | 21 => 24  |
+| Young Adult  | 25 => 32  |
+| Adult        | 33 => 48  |
+| Abraham      | 49 => 59  |
+| Elderly      | 60+       |
 
 ![Alt text](AgeDistribution.png?raw=true "Age Distribution")
 
