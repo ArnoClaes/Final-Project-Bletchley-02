@@ -40,10 +40,7 @@ From the analysis it is evident that current input data does not contain suffici
 Multiple models are built by tweaking parameters such as dropout, quantity of layers and size of layers, however, at best the model performs 52.90%, which is insignificantly better than random guessing. 
 
 ### Age Classification
+Age classifications perform poor in predicting the correct age classes of a given instance. Interestingly, it can be observed that the all of the models, when used for predictions, converge to one class prediction. 
 
-
-
-
-
-
-
+## Conclusion
+From the present study of the relationship between facial landmarks and gender & age categories it can be concluded that too much useful information is lost when reformatting images to facial landmark arrays. In the future we believe that facial landmarks may be a useful feature for identifying users at a more granular level [1](https://www.tu-ilmenau.de/fileadmin/media/neurob/publications/conferences_int/2005/Wilhelm-ICANN-2005.pdf), however, the current state of facial landmarks do not contain the degree of useful information required for accurate classification.
