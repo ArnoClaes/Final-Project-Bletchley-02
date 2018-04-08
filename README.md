@@ -14,7 +14,7 @@ The presen approach utilizes data collected from 'The Open University of Israel'
 In order to derive proper age classes we considered the distribution of observations in proportion to the sample. The classes of the present model are described below:
 
 | Category     | Age Range |
-|--------------|-----------| ![Alt text](AgeDistribution.png?raw=true "Age Distribution")
+|--------------|-----------|: ![Alt text](AgeDistribution.png?raw=true "Age Distribution")
 | Toddler      | 0 => 3    |
 | Young Child  | 4 => 6    |
 | Child        | 7 => 14   |
